@@ -1,0 +1,144 @@
+# =========================
+# OS - macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================
+# OS - Windows
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# IDE - JetBrains Rider / IntelliJ
+# =========================
+.idea/*
+*.iml
+*.ipr
+*.iws
+.sln.iml
+
+# =========================
+# IDE - Visual Studio / VS for Mac
+# =========================
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.pdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.userprefs
+
+# =========================
+# IDE - Visual Studio Code
+# =========================
+.vscode/
+
+# =========================
+# .NET / Build outputs
+# =========================
+bin/
+obj/
+out/
+build/
+[Bb]uild[Ll]og.*
+
+# Artifacts
+artifacts/
+*.nupkg
+
+# Legacy lock files (older .NET tooling)
+project.lock.json
+project.fragment.lock.json
+
+# NuGet (packages folder)
+packages/
+!packages/build/
+!packages/repositories.config
+
+# =========================
+# Logs / Coverage / Test results
+# =========================
+*.log
+logs/
+TestResult*/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+.coverage/
+coverage*/
+*.lcov
+
+# =========================
+# Analyzers / Plugins / Tooling caches
+# =========================
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+StyleCop.Cache
+.nyc_output/
+.cache/
+*.sass-cache
+
+# =========================
+# Mobile-specific artifacts (MAUI Android/iOS/Mac Catalyst)
+# =========================
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+.gradle/
+local.properties
+*.keystore
+*.jks
+.keystore
+
+# iOS / Mac Catalyst (Xcode toolchain)
+**/*.mode1v3
+**/*.mode2v3
+**/*.perspectivev3
+**/*.pbxuser
+**/*.xcuserstate
+xcuserdata/
+DerivedData/
+*.app
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# =========================
+# Certificates / Keys
+# =========================
+*.pfx
+*.p12
+*.cer
+*.mobileprovision
+
+# =========================
+# Environment / Local config
+# =========================
+.env
+.env.*
+secrets.json
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+~$*
+*.orig
