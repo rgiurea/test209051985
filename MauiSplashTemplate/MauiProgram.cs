@@ -1,5 +1,4 @@
-using MauiIcons;
-using MauiIcons.Material;
+using FontAwesome.Sharp;
 using Microsoft.Maui.Controls.Hosting;
 using Microsoft.Maui.Hosting;
 
@@ -12,7 +11,10 @@ public static class MauiProgram
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
-            .UseMaterialMauiIcons();
+            .ConfigureFonts(fonts =>
+            {
+                fonts.AddFontAwesomeIcons();
+            });
 
         return builder.Build();
     }
