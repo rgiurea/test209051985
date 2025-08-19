@@ -1,4 +1,7 @@
 using MauiIcons;
+using MauiIcons.Material;
+using Microsoft.Maui.Controls.Hosting;
+using Microsoft.Maui.Hosting;
 
 namespace MauiSplashTemplate;
 
