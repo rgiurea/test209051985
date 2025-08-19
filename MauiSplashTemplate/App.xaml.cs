@@ -1,4 +1,6 @@
-﻿namespace MauiSplashTemplate;
+﻿using Microsoft.Maui.Controls;
+
+namespace MauiSplashTemplate;
 
 public partial class App : Application
 {
