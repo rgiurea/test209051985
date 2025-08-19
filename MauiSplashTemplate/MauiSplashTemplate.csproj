@@ -43,7 +43,7 @@
         </ItemGroup>
 
         <ItemGroup>
-                <PackageReference Include="AathifMahir.Maui.MauiIcons.Material" Version="4.0.0" />
+                <PackageReference Include="FontAwesome.Sharp.Maui" Version="6.5.1" />
         </ItemGroup>
 
 </Project>
