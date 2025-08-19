@@ -38,8 +38,12 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <None Remove="Platforms\Android\Resources\Splash\splash.png" />
-	</ItemGroup>
+        <ItemGroup>
+          <None Remove="Platforms\Android\Resources\Splash\splash.png" />
+        </ItemGroup>
+
+        <ItemGroup>
+                <PackageReference Include="AathifMahir.Maui.MauiIcons.Material" Version="4.0.0" />
+        </ItemGroup>
 
 </Project>
