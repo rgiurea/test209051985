@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mvx:MvxContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:mvx="clr-namespace:MvvmCross.Maui.Views;assembly=MvvmCross.Maui"
+                    xmlns:viewModels="clr-namespace:MvvmCrossMauiApp.ViewModels"
+                    x:Class="MvvmCrossMauiApp.Views.SplashView"
+                    x:DataType="viewModels:SplashViewModel">
+    <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Splash" FontSize="24" />
+    </VerticalStackLayout>
+</mvx:MvxContentPage>

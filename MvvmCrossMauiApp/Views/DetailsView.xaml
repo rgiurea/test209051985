@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mvx:MvxContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:mvx="clr-namespace:MvvmCross.Maui.Views;assembly=MvvmCross.Maui"
+                    xmlns:viewModels="clr-namespace:MvvmCrossMauiApp.ViewModels"
+                    x:Class="MvvmCrossMauiApp.Views.DetailsView"
+                    x:DataType="viewModels:DetailsViewModel">
+    <VerticalStackLayout Spacing="10" Padding="20">
+        <Label Text="Details" FontSize="24"/>
+        <Label Text="{Binding ItemId, StringFormat='ItemId: {0}'}"/>
+        <Button Text="Open SubDetails" Command="{Binding OpenSubDetailsCommand}"/>
+        <Button Text="Back" Command="{Binding BackCommand}"/>
+    </VerticalStackLayout>
+</mvx:MvxContentPage>
